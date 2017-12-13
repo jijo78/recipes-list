@@ -1,0 +1,19 @@
+.card{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.card__block{
+  width:20%;
+  background-color: $white;
+  border: 1px solid rgba(0,0,0,.125);
+  color: $extra-dark-grey;
+  border-radius: .25rem;
+  margin-right: 1rem;
+  position: relative;
+  .card__img{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
